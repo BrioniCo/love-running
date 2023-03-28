@@ -27,7 +27,7 @@ h1, h2 {
 
 #menu {
     font-size: 110%;
-    letter-spacing: 4px;
+    letter-spacing:4px;
 }
 
 #menu, #logo {
@@ -51,6 +51,10 @@ h1, h2 {
     border-bottom: 1px solid #3a3a3a;
 }
 
+#cover-text, #cover-text h2 {
+    color:#fff;
+    
+}
 #hero-image {
     height:600px;
     width:100%;
@@ -65,8 +69,29 @@ animation-fill-mode:forwards;
     height:600px;
     width:100%;
     overflow:hidden;
+
+    position:relative;
 }
 @keyframes hero-zoom {
     from {transform:scale(1);}
     to {transform:scale(1.1);}
+}
+
+
+#cover-text {
+    background-color:rgba(241,109,107,.7);
+    font-family:Oswald, sans-serif;
+    font-size:130%;
+    text-transform:uppercase;
+    letter-spacing:4px;
+
+    height:200px;
+    width:300px;
+
+    padding-top:40px;
+    padding-left:10px;
+
+    bottom:30px;
+    right:150px;
+    position:absolute;
 }
