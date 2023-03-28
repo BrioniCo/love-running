@@ -164,3 +164,14 @@ hr {
     border-radius:50%;
     background:url('../images/ethos-center-image.jpg') no-repeat center center;
 }
+
+#times {
+    width:100%;
+    height:30%;
+    background:url('../images/dublin-city.webp');
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position: center;
+    width:100%;
+    overflow:hidden;
+}
