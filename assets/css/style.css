@@ -196,11 +196,12 @@ footer {
 .social-networks {
     text-align: center;
 }
+
 .social-networks > li {
     display: inline;
 }
 
-.social-networks a {
+.social-networks i {
     padding: 5%;
     margin: 1%;
     color:#3a3a3a;
